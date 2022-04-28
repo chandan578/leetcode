@@ -45,6 +45,7 @@ public class MaxNumberOfWordFoundInSentence {
             arr[i] = sc.nextLine();
         }
         System.out.println(mostWordFound(arr));
+        sc.close();
     }   
     private static int mostWordFound(String[] sentences) {
         int maxWord = 0;
