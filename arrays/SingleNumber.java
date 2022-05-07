@@ -48,7 +48,8 @@ public class SingleNumber {
         return res;
     } 
 }
-// ^ operator -- XOR operator, it takes two integer value and convert binary form and and operate it. Ex -- 5 ^ 7 = 101  = 5
+// ^ operator -- XOR operator, it takes two integer value and convert binary form and and operate it.
+//              Ex -- 5 ^ 7 = 101  = 5
 //                          ^ 111  = 7
 //                         -------------
 //                            010  = 2

@@ -15,7 +15,6 @@ Initially, the value of X is 0.
 Given an array of strings operations containing a list of operations, return the final value of X after performing all the operations.
 
 Example 1:
-
 Input: operations = ["--X","X++","X++"]
 Output: 1
 Explanation: The operations are performed as follows:
@@ -44,7 +43,6 @@ X++: X is incremented by 1, X = 0 + 1 = 1.
 X--: X is decremented by 1, X = 1 - 1 = 0.
  
 Constraints:
-
 1 <= operations.length <= 100
 operations[i] will be either "++X", "X++", "--X", or "X--".
 */
